@@ -1,0 +1,179 @@
+.bg-light {
+    background-color: #1b1b1b!important;
+    justify-content: space-between!important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+}
+.nav-item{
+    margin: 0%;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.active{
+    color: blue;
+}
+.navbar-light .navbar-brand{
+    color: rgba(255, 255, 255, 0.9);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    margin: 0%;
+}
+.videostyle
+{
+    max-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    position: absolute; 
+}
+#card{
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: blue 2px 2px;
+}
+.row{
+    margin: 0%;
+    position: relative;
+}
+.imagestyle{
+    width: 100%;
+    height: 250px;
+}
+.headingname{
+    font-size: 2.5rem;
+    font-style: bold;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5%;
+}
+.titlename{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 2%;
+}
+.contactbox
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+.heading{
+    font-size: 4rem;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul li{
+   font-size: 2rem;
+   margin-bottom: 30px;
+   color: #ffffff;
+}
+th td{
+    font-size: 4rem;
+}
+.table
+{
+    height: 300px;
+    background: rgba( 22, 126, 246, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+th td {
+    color: white;
+    font-size: 1rem;
+}
+.icons
+{
+    font-size: 10rem;
+    font-style: bold;
+}
+.formsection
+{
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.formcontent
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+b
+{
+    color: #ffffff;
+}
+
+
+
+/* pages style */
+.homepagestyle
+{
+   top: 0%;
+   left: 0%;
+   bottom: 0%;
+   right: 0%;
+   position: relative;
+}
+.technicalpage
+{
+    width: 100%;
+    background-image: url('taylor\ swift.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 13%;
+}
+.technicaltexts{
+    background-color: rgba(244, 119, 169, 0.17);
+    border-radius: 20px;
+}
+.commondetails
+{
+     background-image: url("cooncert.png");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 50%;
+}
+.leftintropage
+{
+     height: 80vh;
+     margin-top: 10%;
+}
+.rightintropage
+{
+    height: 80vh;
+}
+.otherinfo
+{
+    padding-top: 8%;
+    background: #403B4A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
